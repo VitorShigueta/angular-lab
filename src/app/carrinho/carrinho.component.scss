@@ -60,3 +60,21 @@ input {
 .buy-button:hover {
     filter: brightness(0.9);
 }
+
+@media only screen and (max-width: 600px) {
+    li {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .remove-button {
+        background-color: red;
+        border: none;
+        margin-top: 5px;
+        color: white;
+        padding: 20px;
+        width: 100%;
+        transition: .2s all;
+    }
+
+  }

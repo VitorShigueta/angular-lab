@@ -23,3 +23,13 @@
     color: #fff;
     font-size: 22px;
 }
+
+@media only screen and (max-width: 600px) {
+    .search-form input {
+        font-size: 18px;
+    }
+
+    .search-form button {
+        font-size:18px; 
+    }
+  }
